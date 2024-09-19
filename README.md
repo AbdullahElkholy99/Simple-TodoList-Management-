@@ -5,7 +5,7 @@
 ### I’m thrilled to share my latest project: an MVC-based To-Do List application! 🎉
 
 ## Project Overview:
-### A "To-Do List" is such a simple yet powerful tool that helps boost productivity and keep tasks organized. My app makes it super easy to manage your tasks and time efficiently.
+##### A "To-Do List" is such a simple yet powerful tool that helps boost productivity and keep tasks organized. My app makes it super easy to manage your tasks and time efficiently.
 
 ## 🌟 Features I'm Proud Of:
 
