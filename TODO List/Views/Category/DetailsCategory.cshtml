@@ -1,0 +1,73 @@
+﻿@model Category
+
+@{
+    ViewData["Title"] = "Details Category";
+}
+
+<h2>Details Category </h2>
+<a class="btn btn-primary mb-2 bi bi-plus-circle-dotted" asp-action="Create" asp-controller="TODO">
+    Create New Task</a>
+ 
+@if (!Model.ToDos.Any())
+{
+    <div class="alert alert-warning mt-5">
+        <h4 class="alert-heading">No Tasks!</h4>
+        <p class="mb-0">No Tasks Were Added Yet.</p>
+    </div>
+}
+else{
+
+    <div class="mt-5">
+        <table class="table table-bordered border-primary">
+            <thead>
+                <tr>
+                    <th> # Task</th>
+                    <th>Task Name </th>
+                    <th>Create At </th>
+                    <th>Create End</th>
+                    <th>Status </th>
+                </tr>
+            </thead>
+            <tbody>
+            <tbody>
+                @foreach (var task in Model.ToDos)
+                {
+                    <tr>
+                        <td>  @Html.DisplayFor(modelItem => task.Id) </td>
+                        <td> @Html.DisplayFor(modelItem => task.Name)</td>
+                        <td> @Html.DisplayFor(modelItem => task.CreatedAt)</td>
+                        <td> @Html.DisplayFor(modelItem => task.CreatedEnd)</td>
+                        
+                                @if (task.StatusTask == "Completed")
+                                {
+                                    <td style="background-color:lightgreen; ">
+                                        @Html.DisplayFor(modelItem => task.StatusTask)
+                                        &nbsp;
+                                        <i class="fas fa-check-circle" style="position: absolute; top:100% right:10px ; font-size: 20px;  transform: translateY(12%); color: green;"></i>
+                                    </td>
+                                }
+                                else if (task.StatusTask == "ToDo")
+                                {
+                                    <td style="background-color:lightblue; ">
+                                        @Html.DisplayFor(modelItem => task.StatusTask)
+                                        &nbsp; 
+                                        <i class="fas fa-tasks" style="position: absolute; top:100% right:10px ; font-size: 20px;  transform: translateY(12%); color: green;"></i>
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td style="background-color:orange; ">
+                                        @Html.DisplayFor(modelItem => task.StatusTask)
+                                        &nbsp;
+                                        <i class="fas fa-spinner fa-spin" style="position: absolute; top:100% right:10px ; font-size: 20px;  transform: translateY(12%); color: green;"></i>
+                                    </td>
+                                }
+                     </tr>  
+                }
+            </tbody>
+        </table>
+
+    </div>
+}
+
+ 

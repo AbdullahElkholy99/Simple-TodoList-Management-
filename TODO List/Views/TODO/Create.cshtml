@@ -1,0 +1,71 @@
+﻿@model ToDo
+
+@{
+    ViewData["Title"] = "Create Task";
+    SelectList categoriesList = 
+    new SelectList(ViewBag.CategoriesList, "Id", "Name");
+
+}
+ 
+<p>
+    <i class="bi bi-plus-circle-dotted"></i>
+    Create A New Task
+</p>
+
+<h4>ToDo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" placeholder="Title" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <!-- Insert Description : -->
+            <div class="form-group">
+                <label asp-for="Text" class="form-label mt-4"></label>
+                <input asp-for="Text" class="form-control" placeholder="Description"></input>
+                <span asp-validation-for="Text" class="text-danger"></span>
+            </div>
+
+        
+            <div class="form-group">
+                <label asp-for="CreatedAt" class="control-label"></label>
+                <input asp-for="CreatedAt" class="form-control" />
+                <span asp-validation-for="CreatedAt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreatedEnd" class="control-label"></label>
+                <input asp-for="CreatedEnd" class="form-control" />
+                <span asp-validation-for="CreatedEnd" class="text-danger"></span>
+            </div>
+            <!-- Choose Category : -->
+
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label"></label>
+                <div class="col-sm-10">
+                    @Html.DropDownListFor(ww => ww.CategoryId, @categoriesList,
+                             htmlAttributes: new { @class = "form-select" })
+                    @Html.ValidationMessageFor(ww => ww.Id, "", 
+                    htmlAttributes: new { @class = "text-danger" })
+                </div>
+            </div>
+    
+            <br />
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,98 @@
+﻿
+@{
+	ViewData["Title"] = "Home Task";
+}
+
+
+<div class="d-grid gap-2">
+	<a class="btn btn-lg btn-primary" asp-action="Details" asp-controller="TODO"> Show All Task</a>
+	<a class="btn btn-lg btn-primary bi bi-plus-circle-dotted" asp-action="Create" asp-controller="TODO"> Create Task</a>
+
+</div> 
+
+@* 
+
+@model IEnumerable<ToDo>
+@{
+	ViewData["Title"] = "Index";
+
+	Pager pager = new();
+
+	int pageNo = 0;
+	if(ViewBag.Pager != null)
+	{
+		pager = ViewBag.Pager;
+		pageNo = pager.CurrentPage;
+	}
+
+}
+
+
+<p>
+	<a asp-action="Create" class="btn btn-sm btn-success ml-1">Create New</a>
+</p>
+<table class="table">
+	<thead>
+        <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>CreatedAt</th>
+            <th>Created End</th>
+            <th>Category Name </th>
+            <th>Status </th>
+            <th> </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td> @Html.DisplayFor(modelItem => item.Id)</td>
+                <td> @Html.DisplayFor(modelItem => item.Name) </td>
+                <td> @Html.DisplayFor(modelItem => item.CreatedAt) </td>
+                <td> @Html.DisplayFor(modelItem => item.CreatedEnd) </td>
+                <td> @Html.DisplayFor(modelItem => item.Category!.Name)  </td>
+
+                @if (item.StatusTask == "Completed")
+                {
+                    <td style="background-color:lightgreen; font-size: 18px;">
+                        @Html.DisplayFor(modelItem => item.StatusTask)
+                        &nbsp; <i class="fas bi-check-circle-fill" style="position: absolute; top:100% right:10px ; font-size: 20px;  transform: translateY(12%); color: green;"></i>
+                    </td>
+                }
+                else if (item.StatusTask == "ToDo")
+                {
+                    <td style="background-color:lightblue; ">
+                        @Html.DisplayFor(modelItem => item.StatusTask)
+                        &nbsp; <i class="fas fa-tasks" style="position: absolute; top:100% right:10px ; font-size: 20px;  transform: translateY(12%); color: green;"></i>
+
+                    </td>
+                }
+                else
+                {
+                    <td style="background-color:orange; ">
+                        @Html.DisplayFor(modelItem => item.StatusTask)
+                        &nbsp; <i class="fas fa-spinner fa-spin" style="position: absolute; top:100% right:10px ; font-size: 20px;  transform: translateY(12%); color: green;"></i>
+
+                    </td>
+                }
+
+                <td>
+                    <a class="btn btn-primary rounded rounded-3 me-2 bi bi-pencil" asp-action="Edit" asp-route-id="@item.Id">&nbsp;Edit</a>| &nbsp;
+                    <a class="btn btn-info me-2 rounded rounded-3 bi bi-eye" asp-action="Details" asp-route-id="@item.Id">&nbsp;Details</a>| &nbsp;
+                    @Html.ActionLink(" Delete", "Delete", "TODO", routeValues: new { Id = item.Id },
+                             htmlAttributes: new
+                             {
+                                 @class = "btn btn-danger bi bi-trash rounded rounded-3",
+                                 onclick = $"return confirm ('Sure Delete {item.Name}!!!')"
+                             })
+                </td>
+            </tr>
+        }
+        </tbody>
+</table>
+@section Scripts {
+    <partial name="_Pager" model="@pager"/> 
+    <partial name="_ValidationScriptsPartial" />
+} *@

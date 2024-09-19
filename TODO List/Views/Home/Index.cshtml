@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Category>
+ 
+@{
+    ViewData["Title"] = "Home Page";
+}
+@if (!Model.Any())
+{
+    <a class="btn btn-primary bi bi-plus-circle-dotted" asp-action="Create"
+         asp-controller="Category"> Create New Category</a>
+  <hr />
+    <div class="alert alert-warning mt-5">
+        <h4 class="alert-heading">No Categories!</h4>
+        <p class="mb-0">No Categories Were Added Yet.</p>
+    </div>
+}
+else
+{
+    <h4>All Categories ^_^</h4>
+    <hr />
+    <div class="row mt-5">
+        @foreach(var category in Model)
+        {
+            <div class="col-lg-3 col-md-6">
+                <a class="card border-success mb-5 text-decoration-none rounded-3 overflow-hidden" style="max-width: 20rem; max-height:20rem" asp-controller="Category" asp-action="DetailsCategory" asp-route-id="@category.Id">
+
+                    <div class="card-header rounded-0 fs-3">@category.Name</div>
+                    <div class="card-body" style="background-image: background-size: cover; background-position: center; height: 500px;">
+                       <div class="d-flex align-items-end h-10">
+                            <p class=" rounded-0 fs-3">@category.Text</p>
+                       </div>
+                    </div>
+                    <div class="card-footer text-muted d-flex justify-content-between align-items-center">
+                        <h5>NO. Tasks : @category.ToDos.Count()</h5>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>   
+}

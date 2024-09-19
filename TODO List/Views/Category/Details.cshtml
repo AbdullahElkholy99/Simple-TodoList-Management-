@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Category>
+
+@{
+    ViewData["Title"] = "Details";
+    Pager pager = new();
+
+    int pageNo = 0;
+    if (ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
+}
+
+<h1>Details</h1>
+@if(!Model.Any())
+{
+    <p>
+        <a class="btn btn-primary" asp-action="Create">Create New</a>
+    </p>
+    <br />
+    <div class="alert alert-warning mt-5">
+        <h4 class="alert-heading">No Categories!</h4>
+        <p class="mb-0">No Categories Were Added Yet.</p>
+    </div>
+}
+else{
+    <h4>
+        <a class="btn btn-primary" asp-action="Create">
+            <i class="bi bi-plus-circle-dotted mb-2"></i>
+        Create A New Category
+        </a>
+
+    </h4>
+    <p>User Name : @User.Identity.Name</p>
+    <br />
+    <hr />
+    <table class="table">
+        <thead>
+            <tr>
+                <th> @Html.DisplayNameFor(model => model.Id)</th>
+                <th>@Html.DisplayNameFor(model => model.Name) </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                        <a class="btn btn-primary rounded rounded-3 me-2 bi bi-pencil" asp-action="Edit" asp-route-id="@item.Id">&nbsp;Edit</a>
+                        <a class="btn btn-info me-2 rounded rounded-3 bi bi-eye" asp-action="DetailsCategory" asp-route-id="@item.Id">&nbsp;Details</a>
+              
+                        @Html.ActionLink(" Delete", "Delete", "Category", routeValues: new { Id = item.Id },
+                                 htmlAttributes: new { @class = "btn btn-danger bi bi-trash",
+                                 onclick = $"return confirm ('Sure Delete {item.Name}!!!')" })
+
+
+
+                    </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    <partial name="_Pager" model="@pager" />
+
+}
