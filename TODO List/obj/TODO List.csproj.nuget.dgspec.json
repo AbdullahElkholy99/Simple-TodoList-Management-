@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\.Net\\MVC\\Projects\\TODO List\\TODO List.csproj": {}
+    "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\TODO List.csproj": {}
   },
   "projects": {
-    "H:\\.Net\\MVC\\Projects\\TODO List\\TODO List.csproj": {
+    "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\TODO List.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\.Net\\MVC\\Projects\\TODO List\\TODO List.csproj",
+        "projectUniqueName": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\TODO List.csproj",
         "projectName": "TODO List",
-        "projectPath": "H:\\.Net\\MVC\\Projects\\TODO List\\TODO List.csproj",
+        "projectPath": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\TODO List.csproj",
         "packagesPath": "C:\\Users\\HP 450 G4\\.nuget\\packages\\",
-        "outputPath": "H:\\.Net\\MVC\\Projects\\TODO List\\obj\\",
+        "outputPath": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP 450 G4\\AppData\\Roaming\\NuGet\\NuGet.Config",

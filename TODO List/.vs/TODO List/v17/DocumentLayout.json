@@ -1,53 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\.Net\\MVC\\Projects\\TODO List\\",
+  "WorkspaceRootPath": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list\\views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list\\views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list\\views\\todo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\models\\modelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:models\\modelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\views\\todo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:views\\todo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\views\\todo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:views\\todo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|h:\\.net\\mvc\\projects\\todo list management app\\simple-todolist-management-\\todo list\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B47498DA-70FC-46F8-8437-1453A20F332E}|TODO List.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,43 +78,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T19:45:12.808Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddAdmin.cshtml",
-              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\Account\\AddAdmin.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\AddAdmin.cshtml",
-              "ToolTip": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\Account\\AddAdmin.cshtml",
-              "RelativeToolTip": "Views\\Account\\AddAdmin.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T19:44:33.071Z"
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAywBsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:48:48.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAACYAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -102,24 +114,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ToDo.cs",
-              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\TODO List\\Models\\ToDo.cs",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Models\\ToDo.cs",
               "RelativeDocumentMoniker": "Models\\ToDo.cs",
-              "ToolTip": "H:\\.Net\\MVC\\Projects\\TODO List\\Models\\ToDo.cs",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Models\\ToDo.cs",
               "RelativeToolTip": "Models\\ToDo.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAIBAwBEAAAAWAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T17:43:26.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\TODO\\Edit.cshtml",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\TODO\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\TODO\\Edit.cshtml",
-              "ToolTip": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\TODO\\Edit.cshtml",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\TODO\\Edit.cshtml",
               "RelativeToolTip": "Views\\TODO\\Edit.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAAgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -127,11 +139,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "TODOController.cs",
-              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\TODO List\\Controllers\\TODOController.cs",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Controllers\\TODOController.cs",
               "RelativeDocumentMoniker": "Controllers\\TODOController.cs",
-              "ToolTip": "H:\\.Net\\MVC\\Projects\\TODO List\\Controllers\\TODOController.cs",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Controllers\\TODOController.cs",
               "RelativeToolTip": "Controllers\\TODOController.cs",
               "ViewState": "AQIAAGIAAAAAAAAAAAAAAG8AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -139,36 +151,134 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\TODO List\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "H:\\.Net\\MVC\\Projects\\TODO List\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAywBYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T17:32:03.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\TODO List\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "H:\\.Net\\MVC\\Projects\\TODO List\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADgAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T17:06:02.866Z",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T17:30:47.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:52:53.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T17:32:03.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\TODO\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\TODO\\Create.cshtml",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\TODO\\Create.cshtml",
+              "RelativeToolTip": "Views\\TODO\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T21:58:59.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModelBase.cs",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Models\\ModelBase.cs",
+              "RelativeDocumentMoniker": "Models\\ModelBase.cs",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Models\\ModelBase.cs",
+              "RelativeToolTip": "Models\\ModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T18:09:37.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T18:10:33.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T17:06:02.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwCYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:35:02.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddAdmin.cshtml",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\Account\\AddAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AddAdmin.cshtml",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\Account\\AddAdmin.cshtml",
+              "RelativeToolTip": "Views\\Account\\AddAdmin.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T19:44:33.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T19:45:12.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\Account\\Login.cshtml",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\Account\\Login.cshtml",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "Views\\Account\\Login.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -176,35 +286,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T17:30:47.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\TODO List\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "H:\\.Net\\MVC\\Projects\\TODO List\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAowEoAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T19:35:02.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Welcome.cshtml",
-              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\Home\\Welcome.cshtml",
+              "DocumentMoniker": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\Home\\Welcome.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Welcome.cshtml",
-              "ToolTip": "H:\\.Net\\MVC\\Projects\\TODO List\\Views\\Home\\Welcome.cshtml",
+              "ToolTip": "H:\\.Net\\MVC\\Projects\\ToDo List Management App\\Simple-TodoList-Management-\\TODO List\\Views\\Home\\Welcome.cshtml",
               "RelativeToolTip": "Views\\Home\\Welcome.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

@@ -28,10 +28,11 @@ namespace TODO_List.Controllers
 
             var categories = await _context.Categories
                 .Include(t => t.ToDos)
-                .Where(x => x.UserId == user.Id).ToListAsync();
+                .Where(x => x.UserId == user.Id)
+                .ToListAsync();
 
             if (categories.IsNullOrEmpty())
-                return BadRequest("Ooooops");
+                return BadRequest("No Category Added Yet!!");
             return View(categories);
         }
 

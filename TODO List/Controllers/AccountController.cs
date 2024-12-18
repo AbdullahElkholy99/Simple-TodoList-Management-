@@ -29,7 +29,8 @@
 
                 if (userModel != null)
                 {
-                    bool found = await _userManager.CheckPasswordAsync(userModel, userVM.Password);
+                    bool found = await _userManager
+                        .CheckPasswordAsync(userModel, userVM.Password);
                     if (found)
                     {
                         //cookie 
@@ -39,10 +40,7 @@
                 }
                 ModelState.AddModelError("", "User Name Or Password Is Wrong");
             }
-
             return View(userVM);
-
-
         }
         #endregion
 

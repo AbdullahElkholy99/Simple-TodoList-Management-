@@ -19,3 +19,12 @@ namespace TODO_List.Models
 
 	}
 }
+/*
+ user 
+	+id : int
+	+name : string
+	+email string
+	+$CategoryId : int 
+	+Login(user : User)
+
+ */
